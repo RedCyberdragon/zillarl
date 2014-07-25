@@ -9,12 +9,6 @@
 
 import libtcodpy as libtcod
 
-#Debug Tool Settings
-DEBUG_ENABLED = True;		#Is debug mode enabled
-DEBUG_MENUSTATE = "Hidden";	#Hidden, Visible
-DEBUG_MENUROW = 0;		#Saves last menu pos for quick edit
-DEBUG_MENUCOL = 0;		#Handles Moving cursor to different level
-
 #Common Glyphs
 #Zilla
 gZilla = "Z"
