@@ -1,6 +1,7 @@
 ########################################################################################################
 # zillarl.py
 #    by Bluey
+#    minor edits by Red_cyberdragon
 # Main Python script for Bigger is Better (ZillaRL).
 # http://www.forcastia.com | http://gaingirls.tumblr.com
 #    Last updated on July 21, 2014
@@ -9,6 +10,7 @@
 
 import libtcodpy as libtcod
 import zillarldata as data
+import cheater as cheats
 import math
 import textwrap
 import shelve 
