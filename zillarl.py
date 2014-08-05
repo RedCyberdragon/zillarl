@@ -1635,16 +1635,3 @@ def getAllEquipped(obj):
 		return equippedList
 	else:
 		return [] #Non-player objects do not have equipment.
-
-#########################################################################################################
-#Initialize the consoles, font style, and FPS limit.
-libtcod.console_set_custom_font('terminal8x8_gs_tc.png', libtcod.FONT_TYPE_GREYSCALE | libtcod.FONT_LAYOUT_TCOD)
-libtcod.console_init_root(data.SCREEN_WIDTH, data.SCREEN_HEIGHT, "ZillaRL", False)
-libtcod.sys_set_fps(data.FPS_LIMIT)
-
-con = libtcod.console_new(data.MAP_WIDTH, data.MAP_HEIGHT)
-msgPanel = libtcod.console_new(data.MESSAGE_PANEL_WIDTH, data.MESSAGE_PANEL_HEIGHT)
-sidebar = libtcod.console_new(data.SIDEBAR_WIDTH, data.SIDEBAR_HEIGHT)
-infoPanel = libtcod.console_new(data.MAP_WIDTH / 2, data.MAP_HEIGHT)
-
-mainMenu()
