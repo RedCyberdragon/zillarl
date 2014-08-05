@@ -10,7 +10,7 @@
 
 import libtcodpy as libtcod
 import zillarldata as data
-import cheater as cheats
+import cheaters as cheats
 import math
 import textwrap
 import shelve 
